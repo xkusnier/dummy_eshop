@@ -1,0 +1,15 @@
+{
+  "name": "dummy-eshop",
+  "version": "1.0.0",
+  "description": "Dummy e-shop (TechMarket) na testovanie Watchdog nástroja – 5 kategórií, 20 produktov, podobné produkty.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "photos": "node scripts/fetch-photos.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
